@@ -8,6 +8,11 @@ Concept design of the robot
 ![image](https://github.com/user-attachments/assets/fa94db45-36e7-449a-85a6-1a3e6c981a23)
 
 
+Final
+
+![image](https://github.com/user-attachments/assets/c0543c8c-65ac-4354-9fd7-92b86ab7ab02)
+
+
 Geometry
 ![image](https://github.com/user-attachments/assets/e8e8e0d0-990d-47b9-81c4-d9ee8fa7522d)
 
