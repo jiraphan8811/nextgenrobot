@@ -4,8 +4,8 @@ import math
 import matplotlib.pyplot as plt
 
 l0 = 50  # Length between origin and the two motors
-l1 = 100  # Length from motor to passive joints
-l2 = 78.559 # Length from passive joints to end effector
+l1 = 50 # Length from motor to passive joints
+l2 = 107.225 # Length from passive joints to end effector
 
 def calc_angles(x, y):
     # Angle from left shoulder to end effector
@@ -70,17 +70,18 @@ if __name__ == "__main__":
 
     while True:
         # Move right along the bottom of the rectangle
-        for i in range(-70, 71):  
-            plot_plot(i, 40)  
+        # for i in range(-70, 71):  
+        #     plot_plot(i, 40)  
 
-        # Move up along the right side of the rectangle
-        for j in range(40, 121):  
-            plot_plot(70, j)  
+        # # Move up along the right side of the rectangle
+        # for j in range(40, 121):  
+        #     plot_plot(70, j)  
 
-        # Move left along the top of the rectangle
-        for k in range(70, -71, -1):  
-            plot_plot(k, 120) 
+        # # Move left along the top of the rectangle
+        # for k in range(70, -71, -1):  
+        #     plot_plot(k, 120) 
 
-        # Move down along the left side of the rectangle
-        for l in range(120, 39, -1):  
-            plot_plot(-70, l)  
+        # # Move down along the left side of the rectangle
+        # for l in range(120, 39, -1):  
+        #     plot_plot(-70, l)  
+            plot_plot(-50,70)
